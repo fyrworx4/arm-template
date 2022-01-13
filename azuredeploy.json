@@ -5,7 +5,7 @@
     {
       "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2021-04-01",
-      "name": "fyr-store01132022",
+      "name": "fyrstore01132022",
       "location": "westus3",
       "sku": {
         "name": "Standard_LRS"
