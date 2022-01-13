@@ -23,7 +23,7 @@
       },
       "vmSize": {
         "type": "string",
-        "defaultValue": "Standard_",
+        "defaultValue": "Standard_B1s",
         "metadata": {
           "description": "The size of the vm to be created."
         }
@@ -75,8 +75,7 @@
               "password": "[parameters('password')]",
               "labVirtualNetworkId": "[variables('labVirtualNetworkId')]",
               "labSubnetName": "[variables('labSubnetName')]",
-              //"size": "[parameters('vmSize')]",
-              "size": "Stand   ",
+              "size": "[parameters('vmSize')]",
               "allowClaim": "false",
               "galleryImageReference": {
                 "offer": "WindowsServer",
