@@ -32,7 +32,7 @@
       },
       "userName": {
         "type": "string",
-        "defaultValue": "admin",
+        "defaultValue": "adminuser",
         "metadata": {
           "description": "The username for the local account that will be created on the new vm."
         }
