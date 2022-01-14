@@ -4,6 +4,7 @@
     "parameters": {
       "labName": {
         "type": "string",
+        "defaultValue": "devtTestLab",
         "metadata": {
           "description": "The name of the new lab instance to be created"
         }
@@ -17,6 +18,7 @@
       },
       "vmName": {
         "type": "string",
+        "defaultValue": "devTestVM",
         "metadata": {
           "description": "The name of the vm to be created."
         }
@@ -30,12 +32,14 @@
       },
       "userName": {
         "type": "string",
+        "defaultValue": "admin",
         "metadata": {
           "description": "The username for the local account that will be created on the new vm."
         }
       },
       "password": {
         "type": "securestring",
+        "defaultValue": "Password1!",
         "metadata": {
           "description": "The password for the local account that will be created on the new vm."
         }
