@@ -4,7 +4,7 @@
     "parameters": {
       "labName": {
         "type": "string",
-        "defaultValue": "devtTestLab",
+        "defaultValue": "devTestLab",
         "metadata": {
           "description": "The name of the new lab instance to be created"
         }
